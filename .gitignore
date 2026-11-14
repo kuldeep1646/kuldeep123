@@ -1,0 +1,25 @@
+# Secrets and local environment
+.env
+.streamlit/secrets.toml
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local SQLite database and backups (deployment creates a fresh DB)
+database/recruitment.db
+database/*.db-journal
+database/*.sqlite
+database/*.sqlite3
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
